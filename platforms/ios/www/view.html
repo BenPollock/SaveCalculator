@@ -12,7 +12,29 @@
                                 
                                 <!-- Bootstrap core CSS -->
                                 <link rel="stylesheet" type="text/css" href="css/bootstrap.min.css"/>
-                                
+                                <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.0/jquery.min.js"></script>
+                                <!-- Inline Javascript trolololollolo -->
+                                <script type="text/javascript" language="JavaScript">
+                                    
+                                    $(function(){
+                                      var theList = JSON.parse(window.localStorage.getItem("habits"));
+                                      if(theList == null)
+                                            theList = {};
+                                      var count = 0;
+                                      for (var obj in theList)
+                                      {
+                                      count++;
+                                      }
+                                      var list = "Habits:<br>";
+                                      for (var i = 0; i < count; i++){
+                                        list = list + theList[i].text + " " + theList[i].cost + "/wk<br>";
+                                      }
+                                      $("#items").html(list);
+                                      });
+                                      
+                                      var rowID = 0;
+                                      
+                                    </script>
                                 
                                 </head>
     
@@ -22,14 +44,25 @@
         </div>
         <div class="container">
             
-            <div class="alert  alert-warning">
-                <h2>$ave Calculator</h2>
+            <h1>$ave Calculator</h1>
+            <h3 id="items"></h3>
+            
+            <br><br>
+            <div class="row">
+                <div class="col-sm-6 col-md-6">
+                    <div class="thumbnail tile tile-double tile-teal">
+                        <a href="index.html" >
+                            <h1>Back</h1>
+                        </a>
+                    </div>
+                </div>
             </div>
-            <h3>Total Saved: $5.00</h3>
+
             
         </div>
         
-        <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.0/jquery.min.js"></script>
+        
+        
         <script src="js/bootstrap.min.js"></script>
     </body>
 </html>

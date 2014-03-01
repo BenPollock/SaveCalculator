@@ -31,6 +31,8 @@
                                         }
                                         
                                         var theList = JSON.parse(window.localStorage.getItem("habits"));
+                                        if(theList == null)
+                                            theList = {};
                                         var count = 0;
                                         for (var obj in theList)
                                         {
@@ -65,7 +67,7 @@
                     <label>Cost/Week</label>
                     <input type="number" class="form-control" id="cost" placeholder="100">
                         </div>
-                <button type="submit" class="btn btn-default" javascript="createNewToDo()">Submit</button>
+                <button type="submit" class="btn btn-default" onClick="createNewToDo()">Submit</button>
             </form>
             <br><br>
             <div class="row">

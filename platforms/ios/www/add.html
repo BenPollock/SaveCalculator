@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8">
+            <meta http-equiv="X-UA-Compatible" content="IE=edge">
+                <meta name="viewport" content="width=device-width, initial-scale=1">
+                    <meta name="description" content="">
+                        <meta name="author" content="">
+                            <link rel="shortcut icon" href="../../assets/ico/favicon.ico">
+                                
+                                <title>Starter Template for Bootstrap</title>
+                                
+                                <!-- Bootstrap core CSS -->
+                                <link rel="stylesheet" type="text/css" href="css/bootstrap.min.css"/>
+                                
+                                
+                                <!-- Inline Javascript trolololollolo -->
+                                <script type="text/javascript" language="JavaScript">
+                                    
+                                    //Create a new habit
+                                    function createNewToDo()
+                                    {
+                                        var habitDictionary = {};
+                                        
+                                        //Prompt the user to enter To-Do
+                                        var habit=$("#habit").val();
+                                        var cost=$("#cost").val();
+                                        if (habit!= null && cost!= null)
+                                        {
+                                            habitDictionary = { text : habit , cost : cost};
+                                        }
+                                        
+                                        var theList = JSON.parse(window.localStorage.getItem("habits"));
+                                        var count = 0;
+                                        for (var obj in theList)
+                                        {
+                                            count++;
+                                        }
+                                        theList[count] = habitDictionary;
+                                        window.localStorage.setItem("habits", JSON.stringify(theList));
+                                        
+                                    }
+                                    
+                                    var rowID = 0;
+                                    
+                                </script>
+                                
+                                
+                                </head>
+    
+    <body>
+        <div class="container">
+            <br>
+        </div>
+        <div class="container">
+            
+            <h1>$ave Calculator</h1>
+            
+            <form role="form">
+                <div class="form-group">
+                    <label>Bad Habit</label>
+                    <input type="text" class="form-control" id="habit" placeholder="Enter habit">
+                        </div>
+                <div class="form-group">
+                    <label>Cost/Week</label>
+                    <input type="number" class="form-control" id="cost" placeholder="100">
+                        </div>
+                <button type="submit" class="btn btn-default" javascript="createNewToDo()">Submit</button>
+            </form>
+            <br><br>
+            <div class="row">
+                <div class="col-sm-6 col-md-6">
+                    <div class="thumbnail tile tile-double tile-teal">
+                        <a href="index.html" >
+                            <h1>Back</h1>
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+        
+        
+        
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.0/jquery.min.js"></script>
+        <script src="js/bootstrap.min.js"></script>
+    </body>
+</html>

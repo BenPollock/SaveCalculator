@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8">
+            <meta http-equiv="X-UA-Compatible" content="IE=edge">
+                <meta name="viewport" content="width=device-width, initial-scale=1">
+                    <meta name="description" content="">
+                        <meta name="author" content="">
+                            <link rel="shortcut icon" href="../../assets/ico/favicon.ico">
+                                
+                                <title>Starter Template for Bootstrap</title>
+                                
+                                <!-- Bootstrap core CSS -->
+                                <link rel="stylesheet" type="text/css" href="css/bootstrap.min.css"/>
+                                <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.0/jquery.min.js"></script>
+                                <!-- Inline Javascript trolololollolo -->
+                                <script type="text/javascript" language="JavaScript">
+                                    
+                                    $(function(){
+                                        var theList = JSON.parse(window.localStorage.getItem("habits"));
+                                        if(theList == null)
+                                        theList = {};
+                                        var dollars = 0;
+                                        var count = 0;
+                                        for (var obj in theList)
+                                        {
+                                                count++;
+                                        }
+                                        for (var i = 0; i < count; i++){
+                                            if(theList[i].cost != null)
+                                                dollars += parseInt(theList[i].cost);
+                                        }
+                                        $("#saved").html("Weekly Savings: $" + dollars);
+                                      $("#savedy").html("Yearly Savings: $" + dollars * 52);
+                                      });
+                                    
+                                var rowID = 0;
+                                
+                                    </script>
+                                
+                                        </head>
+    
+    <body>
+        <div class="container">
+            <br>
+        </div>
+        <div class="container">
+            
+            <h2>$ave Calculator</h2>
+            <h5>Enter and view your daily bad habits (eg smoking, buying coffee) to calculate how much you could save weekly and yearly by cutting back.</h5>
+            <h3>Current Totals:</h3>
+            <h3 id="saved">Weekly Savings: $0.00</h3>
+            <h3 id="savedy">Yearly Savings: $0.00</h3>
+
+            <img src="img/350150.gif" class="img-responsive" alt="Ad">
+        </div>
+        
+        <div id="footer">
+            <div class="container">
+                <div class="row">
+                    
+                    <div class="col-xs-4">
+                        <div class="thumbnail tile tile-teal">
+                            <a href="add.html" >
+                                <h1>Add</h1>
+                            </a>
+                        </div>
+                    </div>
+                    <div class="col-xs-4 col-xs-offset-2">
+                        <div class="thumbnail tile tile-teal">
+                            <a href="view.html" >
+                                <h1>View</h1>
+                            </a>
+                        </div>
+                    </div>
+            </div>
+        </div>
+        <script src="js/bootstrap.min.js"></script>
+    </body>
+</html>

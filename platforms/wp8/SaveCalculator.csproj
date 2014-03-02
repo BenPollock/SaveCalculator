@@ -151,6 +151,7 @@
     <Content Include="Images\appbar.save.rest.png" />
     <Content Include="Images\appbar.stop.rest.png" />
     <Content Include="www\img\350150.gif" />
+    <Content Include="www\js\jquery.js" />
     <Content Include="www\view.html" />
     <None Include="cordova\lib\build.js" />
     <None Include="cordova\lib\clean.js" />

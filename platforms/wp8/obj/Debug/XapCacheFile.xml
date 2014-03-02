@@ -1,5 +1,5 @@
-﻿<xapCache source="C:\Users\megabenman\Desktop\GitHub\SaveCalculator\platforms\wp8\Bin\Debug\CordovaAppProj_Debug_AnyCPU.xap" wasSigned="False" certificateThumbprint="" TimeStampUrl="" lastWriteTime="3/2/2014 2:14:26 PM">
-  <file source="C:\Users\megabenman\Desktop\GitHub\SaveCalculator\platforms\wp8\obj\Debug\com.benpollock.savecalculator.dll" archivePath="com.benpollock.savecalculator.dll" lastWriteTime="3/2/2014 2:14:25 PM" />
+﻿<xapCache source="C:\Users\megabenman\Desktop\GitHub\SaveCalculator\platforms\wp8\Bin\Debug\CordovaAppProj_Debug_AnyCPU.xap" wasSigned="False" certificateThumbprint="" TimeStampUrl="" lastWriteTime="3/2/2014 3:39:51 PM">
+  <file source="C:\Users\megabenman\Desktop\GitHub\SaveCalculator\platforms\wp8\obj\Debug\com.benpollock.savecalculator.dll" archivePath="com.benpollock.savecalculator.dll" lastWriteTime="3/2/2014 3:31:22 PM" />
   <file source="C:\Users\megabenman\Desktop\GitHub\SaveCalculator\platforms\wp8\config.xml" archivePath="config.xml" lastWriteTime="3/2/2014 1:13:04 PM" />
   <file source="C:\Users\megabenman\Desktop\GitHub\SaveCalculator\platforms\wp8\Images\appbar.back.rest.png" archivePath="Images\appbar.back.rest.png" lastWriteTime="3/2/2014 1:13:00 PM" />
   <file source="C:\Users\megabenman\Desktop\GitHub\SaveCalculator\platforms\wp8\Images\appbar.close.rest.png" archivePath="Images\appbar.close.rest.png" lastWriteTime="3/2/2014 1:13:00 PM" />
@@ -7,10 +7,11 @@
   <file source="C:\Users\megabenman\Desktop\GitHub\SaveCalculator\platforms\wp8\Images\appbar.next.rest.png" archivePath="Images\appbar.next.rest.png" lastWriteTime="3/2/2014 1:13:00 PM" />
   <file source="C:\Users\megabenman\Desktop\GitHub\SaveCalculator\platforms\wp8\Images\appbar.save.rest.png" archivePath="Images\appbar.save.rest.png" lastWriteTime="3/2/2014 1:13:00 PM" />
   <file source="C:\Users\megabenman\Desktop\GitHub\SaveCalculator\platforms\wp8\Images\appbar.stop.rest.png" archivePath="Images\appbar.stop.rest.png" lastWriteTime="3/2/2014 1:13:00 PM" />
-  <file source="C:\Users\megabenman\Desktop\GitHub\SaveCalculator\platforms\wp8\www\img\350150.gif" archivePath="www\img\350150.gif" lastWriteTime="3/2/2014 2:06:36 PM" />
-  <file source="C:\Users\megabenman\Desktop\GitHub\SaveCalculator\platforms\wp8\www\view.html" archivePath="www\view.html" lastWriteTime="3/2/2014 12:36:47 PM" />
+  <file source="C:\Users\megabenman\Desktop\GitHub\SaveCalculator\platforms\wp8\www\img\350150.gif" archivePath="www\img\350150.gif" lastWriteTime="3/2/2014 3:38:42 PM" />
+  <file source="C:\Users\megabenman\Desktop\GitHub\SaveCalculator\platforms\wp8\www\js\jquery.js" archivePath="www\js\jquery.js" lastWriteTime="3/2/2014 3:36:38 PM" />
+  <file source="C:\Users\megabenman\Desktop\GitHub\SaveCalculator\platforms\wp8\www\view.html" archivePath="www\view.html" lastWriteTime="3/2/2014 3:39:04 PM" />
   <file source="C:\Users\megabenman\Desktop\GitHub\SaveCalculator\platforms\wp8\SplashScreenImage.jpg" archivePath="SplashScreenImage.jpg" lastWriteTime="3/2/2014 1:13:00 PM" />
-  <file source="C:\Users\megabenman\Desktop\GitHub\SaveCalculator\platforms\wp8\www\add.html" archivePath="www\add.html" lastWriteTime="3/2/2014 12:36:47 PM" />
+  <file source="C:\Users\megabenman\Desktop\GitHub\SaveCalculator\platforms\wp8\www\add.html" archivePath="www\add.html" lastWriteTime="3/2/2014 3:38:52 PM" />
   <file source="C:\Users\megabenman\Desktop\GitHub\SaveCalculator\platforms\wp8\www\config.xml" archivePath="www\config.xml" lastWriteTime="3/2/2014 1:13:04 PM" />
   <file source="C:\Users\megabenman\Desktop\GitHub\SaveCalculator\platforms\wp8\www\cordova.js" archivePath="www\cordova.js" lastWriteTime="3/2/2014 1:13:04 PM" />
   <file source="C:\Users\megabenman\Desktop\GitHub\SaveCalculator\platforms\wp8\www\cordova_plugins.js" archivePath="www\cordova_plugins.js" lastWriteTime="3/2/2014 1:13:04 PM" />
@@ -18,7 +19,7 @@
   <file source="C:\Users\megabenman\Desktop\GitHub\SaveCalculator\platforms\wp8\www\css\index.css" archivePath="www\css\index.css" lastWriteTime="3/2/2014 1:13:04 PM" />
   <file source="C:\Users\megabenman\Desktop\GitHub\SaveCalculator\platforms\wp8\www\icon.png" archivePath="www\icon.png" lastWriteTime="3/2/2014 1:13:04 PM" />
   <file source="C:\Users\megabenman\Desktop\GitHub\SaveCalculator\platforms\wp8\www\img\logo.png" archivePath="www\img\logo.png" lastWriteTime="3/2/2014 1:13:04 PM" />
-  <file source="C:\Users\megabenman\Desktop\GitHub\SaveCalculator\platforms\wp8\www\index.html" archivePath="www\index.html" lastWriteTime="3/2/2014 2:12:54 PM" />
+  <file source="C:\Users\megabenman\Desktop\GitHub\SaveCalculator\platforms\wp8\www\index.html" archivePath="www\index.html" lastWriteTime="3/2/2014 3:39:47 PM" />
   <file source="C:\Users\megabenman\Desktop\GitHub\SaveCalculator\platforms\wp8\www\js\bootstrap.min.js" archivePath="www\js\bootstrap.min.js" lastWriteTime="3/2/2014 12:36:47 PM" />
   <file source="C:\Users\megabenman\Desktop\GitHub\SaveCalculator\platforms\wp8\www\js\index.js" archivePath="www\js\index.js" lastWriteTime="3/2/2014 1:13:04 PM" />
   <file source="C:\Users\megabenman\Desktop\GitHub\SaveCalculator\platforms\wp8\www\phonegap.js" archivePath="www\phonegap.js" lastWriteTime="3/2/2014 1:13:04 PM" />

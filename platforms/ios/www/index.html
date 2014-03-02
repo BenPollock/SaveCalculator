@@ -27,7 +27,8 @@
                                                 count++;
                                         }
                                         for (var i = 0; i < count; i++){
-                                            dollars += parseInt(theList[i].cost);
+                                            if(theList[i].cost != null)
+                                                dollars += parseInt(theList[i].cost);
                                         }
                                         $("#saved").html("Weekly Savings: $" + dollars);
                                       $("#savedy").html("Yearly Savings: $" + dollars * 52);
@@ -45,7 +46,9 @@
         </div>
         <div class="container">
             
-            <h1>$ave Calculator</h1>
+            <h2>$ave Calculator</h2>
+            <h5>Enter and view your daily bad habits (eg smoking, buying coffee) to calculate how much you could save weekly and yearly by cutting back.</h5>
+            <h3>Current Totals:</h3>
             <h3 id="saved">Weekly Savings: $0.00</h3>
             <h3 id="savedy">Yearly Savings: $0.00</h3>
         </div>
@@ -54,23 +57,20 @@
             <div class="container">
                 <div class="row">
                     
-                    <div class="col-sm-6 col-md-6">
-                        <div class="thumbnail tile tile-double tile-teal">
+                    <div class="col-xs-4">
+                        <div class="thumbnail tile tile-teal">
                             <a href="add.html" >
                                 <h1>Add</h1>
                             </a>
                         </div>
                     </div>
-                </div>
-                <div class="row">
-                    <div class="col-sm-6 col-md-6">
-                        <div class="thumbnail tile tile-double tile-teal">
+                    <div class="col-xs-4 col-xs-offset-3">
+                        <div class="thumbnail tile tile-teal">
                             <a href="view.html" >
                                 <h1>View</h1>
                             </a>
                         </div>
                     </div>
-                </div>
             </div>
         </div>
         <script src="js/bootstrap.min.js"></script>
